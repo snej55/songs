@@ -1,7 +1,8 @@
-# Made by Jens Kromdijk 25/06/2025
+# Made by Jens Kromdijk 25/06/2025#
 
 set_volume! 0.5
 use_bpm 80
+use_random_seed 10
 
 chords = [(chord :e, :minor), (chord :a, :minor), (chord :d, :major), (chord :b, :major)].ring
 c = chords[0]
